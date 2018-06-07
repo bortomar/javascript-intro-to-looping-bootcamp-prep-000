@@ -1,6 +1,6 @@
 
-function forLoop(a) {
+function forLoop(array) {
   for (var i = 0; i < 25; i++) {
-    a.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`);
+    array[i] = `"I am ${i} strange loop${i === 0 ? '' : 's'}."`;
   }
 }
